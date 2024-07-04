@@ -1,0 +1,56 @@
+/* overall main color of the game */
+body{
+    background-color: #0a0a23;
+    background-image: url(https://c4.wallpaperflare.com/wallpaper/660/601/147/forest-pixel-art-wallpaper-preview.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#text{
+    background-color: #0a0a23;
+    padding: 10px;
+    color: white;
+}
+a{
+    color: #ffffff;
+}
+/* game color and text color correction */
+#game{
+    max-width: 500px;
+    max-height: 400px;
+    background-color: #808080;
+    color: #ffffff;
+    margin: 250px auto 0px;
+    padding: 10px;
+}
+
+#control, #stats{
+    border: 1px solid #0a0a23;
+    padding:7px;
+    color: #ffffff;
+}
+
+/* we wnat to hide the monster stats till it necessary */
+#monsterStats{
+    display: none;
+    border: 1px solid #0a0a23;
+    padding: 7px;
+    color: #ffffff;
+    background-color: rgb(150, 24, 24);
+}
+
+/* padding in between stat elements for better spacing */
+.stat{
+    padding-right: 10px;
+}
+
+
+/* some touch to buttons */
+button{
+    cursor: pointer;
+    color: #ffffff;
+    background-color: #0c3b02;
+    background-image: linear-gradient(#258f0d, #0c3b02);
+    border: 2px solid #258f0d ;
+}

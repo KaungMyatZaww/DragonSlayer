@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Dragon Slayer</title>
+</head>
+<body>
+    <!--Backgriund music-->
+    <audio autoplay loop>
+        <source src="Bg music\DragonSlayerBg.mp3" type="audio/ogg">
+        <source src="Bg music/DragonSlayerBg.mp3" type="audio/mp3">
+        <embed src="Bg music\DragonSlayerBg.mp3" autostart="true" loop="true" hidden="true"> 
+    </audio>
+
+    
+    <div id="game">
+        <!--Player stats-->
+        <div id="stats">
+            <span class="stat">XP: <strong><span id="xpText">0</span></strong></span>
+            <span class="stat">Health: <strong><span id="healthText">100</span></strong></span>
+            <span class="stat">Gold: <strong><span id="goldText">50</span></strong></span>
+        </div>
+        <!--Control buttons-->
+        <div id="control">
+            <button id="button1">Go to store</button>
+            <button id="button2">Go to cave</button>
+            <button id="button3">Fight Dragon</button>
+        </div>
+        <!--Monster stats-->
+        <div id="monsterStats">
+            <span class="stat">Monster Name: <strong><span id="monsterName"></span></strong></span>
+            <span class="stat">Monster Health: <strong><span id="monsterHealth"></span></strong></span>
+        </div>
+        <!--Intro & informations for players-->
+        <div id="text">
+            Welcome to <strong>Dragon Slayer RPG</strong>. I made this from freeCodeCamp tutorial.Here is the
+            <a href="https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures-v8/learn-basic-javascript-by-building-a-role-playing-game/step-173" >
+            link</a>!
+        </div>
+
+
+    </div>
+    <script src="./functions.js"></script>
+</body>
+</html>
