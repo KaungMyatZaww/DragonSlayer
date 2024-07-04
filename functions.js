@@ -1,6 +1,6 @@
 /* declare js variables ! */
 let xp = 0;
-let gold = 50;
+let gold = 70;
 let health = 100;
 let currentWeapon = 0;
 let inventory = ["stick"];
